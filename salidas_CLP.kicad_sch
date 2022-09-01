@@ -1030,13 +1030,13 @@
     (uuid ff6ff5b3-2588-4546-ba99-94395b86814a)
   )
 
-  (text "Circuito para salidas de hasta 24 Vdc" (at 76.2 30.48 0)
+  (text "Etapa para salidas de hasta 24 Vdc" (at 76.2 30.48 0)
     (effects (font (size 5.08 5.08) (thickness 1.016) bold) (justify left bottom))
     (uuid 004b7aff-b7f3-410c-8a83-b14cd03691a7)
   )
-  (text "Pines/Output Vdc\n\n- I02	- IO12\n- IO4	- IO13\n- IO5	- IO14"
-    (at 43.18 190.5 0)
-    (effects (font (size 5.08 5.08)) (justify left bottom))
+  (text "Pines ESP32/Output Vdc\n\n- I02	- IO12\n- IO4	- IO13\n- IO5	- IO14"
+    (at 50.8 172.72 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 28020827-3752-41f0-a5a8-c2f5ed73d492)
   )
 

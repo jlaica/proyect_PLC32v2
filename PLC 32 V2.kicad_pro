@@ -438,20 +438,12 @@
       "input_adc"
     ],
     [
-      "daa6b780-4d8e-4d4d-b0f9-cc33e35cffe8",
-      "output_ac"
-    ],
-    [
       "9bd38d29-cbf2-4267-984b-a09bce72c64c",
       "input_dc"
     ],
     [
       "85f527e2-1bef-42a9-94de-e3a9e9aff4bf",
       "fuente_dc"
-    ],
-    [
-      "2880badb-a015-4ab3-af2f-4763c53e3e28",
-      "button_reset_prog"
     ]
   ],
   "text_variables": {}
