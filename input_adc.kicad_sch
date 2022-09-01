@@ -695,6 +695,15 @@
     (uuid fbff649a-bad2-4036-8066-223998e92e45)
   )
 
+  (text "Etapa: Entradas analógias" (at 99.06 45.72 0)
+    (effects (font (size 5.08 5.08) (thickness 1.016) bold) (justify left bottom))
+    (uuid 19d8993a-e62d-4b62-86bf-a7e62999f447)
+  )
+  (text "Pines ESP32/Input ADC\n\n- IA07\n- IA08\n\n\n" (at 60.96 157.48 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid aeca4f94-1e4b-42d0-8535-a97a3a3e506e)
+  )
+
   (global_label "IA08" (shape input) (at 120.65 105.41 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0102fc58-e889-481b-aedc-9732fe325286)

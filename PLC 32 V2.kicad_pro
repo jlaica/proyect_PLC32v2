@@ -431,19 +431,19 @@
     ],
     [
       "bfe7f2f9-6094-4183-b5b7-80ffb6bdab19",
-      "Salidas"
+      "Salidas_DC"
     ],
     [
       "06beca27-a0a2-43cd-ad37-1c99cb7be1ee",
-      "input_adc"
+      "Input_ADC"
     ],
     [
       "9bd38d29-cbf2-4267-984b-a09bce72c64c",
-      "input_dc"
+      "Input_DC"
     ],
     [
       "85f527e2-1bef-42a9-94de-e3a9e9aff4bf",
-      "fuente_dc"
+      "Fuente_DC-DC"
     ]
   ],
   "text_variables": {}
