@@ -428,6 +428,30 @@
     [
       "d17a54f1-6eda-453f-95e1-42a53b02a1c3",
       ""
+    ],
+    [
+      "bfe7f2f9-6094-4183-b5b7-80ffb6bdab19",
+      "Salidas"
+    ],
+    [
+      "06beca27-a0a2-43cd-ad37-1c99cb7be1ee",
+      "input_adc"
+    ],
+    [
+      "daa6b780-4d8e-4d4d-b0f9-cc33e35cffe8",
+      "output_ac"
+    ],
+    [
+      "9bd38d29-cbf2-4267-984b-a09bce72c64c",
+      "input_dc"
+    ],
+    [
+      "85f527e2-1bef-42a9-94de-e3a9e9aff4bf",
+      "fuente_dc"
+    ],
+    [
+      "2880badb-a015-4ab3-af2f-4763c53e3e28",
+      "button_reset_prog"
     ]
   ],
   "text_variables": {}
