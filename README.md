@@ -16,7 +16,7 @@ En la siguiente tabla podemos encontrar la distribución de pines del módulo ES
 
 
 |Función |Pines ESP32-WROOM  | 
-|--- | --- |
+|:---: | --- |
 |Output Vdc |IO02,IO04,IO05,IO12,IO13,IO14|
 |Input Vdc|IO17, IO18, IO19, IO23, IO32, IO33, IO34, IO35|
 
