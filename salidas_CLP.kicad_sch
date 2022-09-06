@@ -1181,7 +1181,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid eaf39ad3-e3a9-47fa-8b1d-bedfd397fa8a)
   )
-  (hierarchical_label "3L" (shape input) (at 259.08 46.99 0)
+  (hierarchical_label "2L" (shape input) (at 259.08 46.99 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f6eb4a18-8d0e-441e-921c-b33662310196)
   )
