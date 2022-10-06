@@ -1,0 +1,16 @@
+### Missing 3D models - created on 2022-10-03 09:51
+### Printed by checking_3D_models plugin
+Board file: /home/jose/Documentos/proyect_CLPGv2/PLC 32 V2.kicad_pcb
+3D missing models written to:
+/home/jose/Documentos/proyect_CLPGv2/PLC 32 V2_missing3Dmodels.txt
+-------
+('D3', '/usr/share/kicad-nightly/3dmodels/Diode_SMD.3dshapes/D_0402_1005Metric.wrl')
+('J5', '/usr/share/kicad-nightly/3dmodels/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl')
+('D2', '/usr/share/kicad-nightly/3dmodels/Diode_SMD.3dshapes/D_0402_1005Metric.wrl')
+('J4', '/usr/share/kicad-nightly/3dmodels/TerminalBlock.3dshapes/TerminalBlock_bornier-5_P5.08mm.wrl')
+('J3', '/usr/share/kicad-nightly/3dmodels/TerminalBlock.3dshapes/TerminalBlock_bornier-5_P5.08mm.wrl')
+('D1', '/usr/share/kicad-nightly/3dmodels/Diode_SMD.3dshapes/D_0402_1005Metric.wrl')
+('U6', '/usr/share/kicad-nightly/3dmodels/Package_SO.3dshapes/SOIC-14W_7.5x9mm_P1.27mm.wrl')
+-------
+NUM of 3D missing models:7
+checked extensions ['.stp', '.step', '.stpZ']
