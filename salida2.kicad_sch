@@ -515,6 +515,11 @@
     (uuid f7d317ae-790d-4fba-afe9-8274fa3607d5)
   )
 
+  (text "Salida Q2" (at 86.36 81.28 0)
+    (effects (font (size 5.08 5.08) (thickness 1.016) bold) (justify left bottom))
+    (uuid 1a3ce5be-373c-48cb-8a91-795de3970a94)
+  )
+
   (hierarchical_label "3L" (shape input) (at 148.59 115.57 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 05f85083-54d4-413f-93b0-589a34de5f09)
