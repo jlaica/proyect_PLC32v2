@@ -451,11 +451,11 @@
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 18.0,
-      "default_text_size": 100.0,
+      "default_text_size": 50.0,
       "field_names": [],
       "intersheets_ref_own_page": true,
       "intersheets_ref_prefix": "",
-      "intersheets_ref_short": true,
+      "intersheets_ref_short": false,
       "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 4,
@@ -493,10 +493,6 @@
       ""
     ],
     [
-      "c00ff4d6-b42e-4bd5-b8ed-b1246bbb1c95",
-      "Salidas_DC"
-    ],
-    [
       "4477056d-8edb-4f95-828f-5c12bb786be6",
       "Fuente_DC-DC"
     ],
@@ -505,36 +501,56 @@
       "BTN_RST_PRG"
     ],
     [
-      "f15369a1-372f-44b7-b230-c20009a7d233",
-      "Input_DC"
-    ],
-    [
       "75bbcb0a-0b0c-4eec-8c3a-7589e42d8fef",
       "CPU"
     ],
     [
-      "2ba438a2-d469-46c0-9a53-75e0da255297",
+      "ee71d592-407c-4f0c-90d3-cb4773606332",
       "Salida1"
     ],
     [
-      "e3a77f63-757f-4571-b586-1a43e844e6ed",
-      "Salida2"
-    ],
-    [
-      "ca880082-9f32-4b5c-9c1e-c7eba4bd42fa",
-      "Salida3"
-    ],
-    [
-      "73dca96a-db35-4cf5-81d2-846a66ca4440",
-      "Salida4"
-    ],
-    [
-      "c56ec3b1-0979-4a94-86f2-af5ba4840ed0",
+      "64b407cd-5d00-473d-9ef6-2525490a4831",
       "Salida5"
     ],
     [
-      "9593263c-54b3-4545-8a60-df5e0b326312",
+      "2637b07c-4b5f-4e3d-b3e5-25bd73194631",
+      "Salida2"
+    ],
+    [
+      "4109c560-1e4d-481f-b3b5-bb77ed9700b9",
       "Salida6"
+    ],
+    [
+      "e0987795-0f8d-4564-9094-c23cc01406e8",
+      "Salida3"
+    ],
+    [
+      "45b8bffb-3df1-48a5-9d0c-dd39ccce2598",
+      "Entrada_DC_1"
+    ],
+    [
+      "d14d4c68-ec37-47aa-9929-a5e7ffbf99b8",
+      "Salida4"
+    ],
+    [
+      "7b2fc48b-830b-4449-9557-444c529d204e",
+      "Entrada_DC_2"
+    ],
+    [
+      "37705a02-34a8-4a29-9845-d4c3245415f3",
+      "Entrada_DC_3"
+    ],
+    [
+      "c71b7323-b7b3-4df1-8a4f-adfbd95d7a33",
+      "Entrada_DC_4"
+    ],
+    [
+      "a6d2e040-0a94-4a2e-860d-bf58d3405101",
+      "Entrada_DC_5"
+    ],
+    [
+      "3c7a123d-7923-42e8-abad-a742ed3daa97",
+      "Entrada_DC_6"
     ]
   ],
   "text_variables": {}
