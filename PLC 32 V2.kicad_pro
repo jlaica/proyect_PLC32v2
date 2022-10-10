@@ -509,28 +509,28 @@
       "Salida1"
     ],
     [
-      "64b407cd-5d00-473d-9ef6-2525490a4831",
-      "Salida5"
-    ],
-    [
       "2637b07c-4b5f-4e3d-b3e5-25bd73194631",
       "Salida2"
-    ],
-    [
-      "4109c560-1e4d-481f-b3b5-bb77ed9700b9",
-      "Salida6"
     ],
     [
       "e0987795-0f8d-4564-9094-c23cc01406e8",
       "Salida3"
     ],
     [
-      "45b8bffb-3df1-48a5-9d0c-dd39ccce2598",
-      "Entrada_DC_1"
-    ],
-    [
       "d14d4c68-ec37-47aa-9929-a5e7ffbf99b8",
       "Salida4"
+    ],
+    [
+      "64b407cd-5d00-473d-9ef6-2525490a4831",
+      "Salida5"
+    ],
+    [
+      "4109c560-1e4d-481f-b3b5-bb77ed9700b9",
+      "Salida6"
+    ],
+    [
+      "45b8bffb-3df1-48a5-9d0c-dd39ccce2598",
+      "Entrada_DC_1"
     ],
     [
       "7b2fc48b-830b-4449-9557-444c529d204e",

@@ -5,7 +5,7 @@
   (paper "A4" portrait)
 
   (title_block
-    (date "2022-09-15")
+    (date "2022-10-09")
     (rev "José Luis Laica")
     (company "INTEAMBI")
   )
@@ -522,7 +522,7 @@
   (symbol (lib_id "Device:R") (at 93.98 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d616e8b-1bf9-4c80-a8ad-d499e325dbbc)
-    (property "Reference" "R38" (at 91.44 93.98 90)
+    (property "Reference" "R1" (at 91.44 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 93.98 93.98 90)
@@ -539,7 +539,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/42521a84-9a19-4c46-b1f2-db09ca0e83df"
-          (reference "R38") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
         )
       )
     )
@@ -548,7 +548,7 @@
   (symbol (lib_id "Transistor_BJT:PMBT3904YS") (at 113.03 124.46 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35cba921-1aa3-4251-a3d3-9525b7d6bac4)
-    (property "Reference" "Q7" (at 107.95 123.1899 0)
+    (property "Reference" "Q1" (at 107.95 123.1899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PMBT3904YS" (at 107.95 125.7299 0)
@@ -569,7 +569,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/42521a84-9a19-4c46-b1f2-db09ca0e83df"
-          (reference "Q7") (unit 1) (value "PMBT3904YS") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+          (reference "Q1") (unit 1) (value "PMBT3904YS") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
         )
       )
     )
@@ -578,7 +578,7 @@
   (symbol (lib_id "Device:R") (at 128.27 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b188fdc-5843-4763-aeb7-01799aab42d4)
-    (property "Reference" "R39" (at 128.27 106.68 90)
+    (property "Reference" "R2" (at 128.27 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 128.27 104.14 90)
@@ -595,7 +595,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/42521a84-9a19-4c46-b1f2-db09ca0e83df"
-          (reference "R39") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+          (reference "R2") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
         )
       )
     )
@@ -604,7 +604,7 @@
   (symbol (lib_id "Transistor_BJT:PMBT3904YS") (at 113.03 104.14 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1b77617-708b-4e0b-bcf4-3f1c450b22c2)
-    (property "Reference" "Q7" (at 107.95 102.8699 0)
+    (property "Reference" "Q1" (at 107.95 102.8699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PMBT3904YS" (at 107.95 105.4099 0)
@@ -625,7 +625,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/42521a84-9a19-4c46-b1f2-db09ca0e83df"
-          (reference "Q7") (unit 2) (value "PMBT3904YS") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
+          (reference "Q1") (unit 2) (value "PMBT3904YS") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
         )
       )
     )
@@ -634,7 +634,7 @@
   (symbol (lib_id "power:GND") (at 55.88 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8f47a68-e9c2-418f-bc90-b9156d97bea1)
-    (property "Reference" "#PWR028" (at 55.88 142.24 0)
+    (property "Reference" "#PWR03" (at 55.88 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 140.97 0)
@@ -650,7 +650,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/42521a84-9a19-4c46-b1f2-db09ca0e83df"
-          (reference "#PWR028") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR03") (unit 1) (value "GND") (footprint "")
         )
       )
     )
@@ -659,7 +659,7 @@
   (symbol (lib_id "Device:R") (at 128.27 124.46 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da503c99-7e1f-4b67-88a8-aace2c71b29d)
-    (property "Reference" "R40" (at 128.27 127 90)
+    (property "Reference" "R3" (at 128.27 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 128.27 124.46 90)
@@ -676,7 +676,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/42521a84-9a19-4c46-b1f2-db09ca0e83df"
-          (reference "R40") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R3") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
         )
       )
     )
@@ -685,7 +685,7 @@
   (symbol (lib_id "Device:R") (at 90.17 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e151a517-7a37-43c3-b15d-1b6003d65053)
-    (property "Reference" "R37" (at 87.63 132.08 90)
+    (property "Reference" "R4" (at 87.63 132.08 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 90.17 132.08 90)
@@ -702,7 +702,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/42521a84-9a19-4c46-b1f2-db09ca0e83df"
-          (reference "R37") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
         )
       )
     )

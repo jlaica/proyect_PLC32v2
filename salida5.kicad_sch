@@ -5,6 +5,7 @@
   (paper "A4" portrait)
 
   (title_block
+    (date "2022-10-09")
     (rev "José Luis Laica")
   )
 
@@ -547,7 +548,7 @@
   (symbol (lib_id "power:GND") (at 68.58 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89c9e14e-98d0-47a2-9c79-726f21e89c68)
-    (property "Reference" "#PWR012" (at 68.58 143.51 0)
+    (property "Reference" "#PWR020" (at 68.58 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 142.24 0)
@@ -563,7 +564,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/64b407cd-5d00-473d-9ef6-2525490a4831"
-          (reference "#PWR012") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR020") (unit 1) (value "GND") (footprint "")
         )
       )
     )
@@ -572,7 +573,7 @@
   (symbol (lib_id "Device:R") (at 68.58 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a2efde8-5587-442b-b002-adb4c85951cb)
-    (property "Reference" "R17" (at 71.12 128.2699 0)
+    (property "Reference" "R31" (at 71.12 128.2699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 71.12 130.8099 0)
@@ -589,7 +590,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/64b407cd-5d00-473d-9ef6-2525490a4831"
-          (reference "R17") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R31") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
         )
       )
     )
@@ -598,7 +599,7 @@
   (symbol (lib_id "Device:R") (at 120.65 130.81 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a37e1db1-dffc-4bdd-a419-c3c3fa4fb28d)
-    (property "Reference" "R25" (at 124.46 134.62 90)
+    (property "Reference" "R34" (at 124.46 134.62 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220 ohm" (at 114.3 134.62 90)
@@ -615,7 +616,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/64b407cd-5d00-473d-9ef6-2525490a4831"
-          (reference "R25") (unit 1) (value "220 ohm") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R34") (unit 1) (value "220 ohm") (footprint "Resistor_SMD:R_0603_1608Metric")
         )
       )
     )
@@ -624,7 +625,7 @@
   (symbol (lib_id "Device:R") (at 129.54 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad9de567-3700-4f05-a0a6-9d94b9fe99c4)
-    (property "Reference" "R29" (at 127 111.76 90)
+    (property "Reference" "R35" (at 127 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220 ohm" (at 134.62 111.76 90)
@@ -641,7 +642,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/64b407cd-5d00-473d-9ef6-2525490a4831"
-          (reference "R29") (unit 1) (value "220 ohm") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R35") (unit 1) (value "220 ohm") (footprint "Resistor_SMD:R_0603_1608Metric")
         )
       )
     )
@@ -650,10 +651,10 @@
   (symbol (lib_id "Isolator:ILD74") (at 97.79 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcf6f2c2-6dad-4e11-956b-6b54cae6677a)
-    (property "Reference" "U3" (at 97.79 115.57 0)
+    (property "Reference" "U10" (at 97.79 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LD74-X009T" (at 97.79 118.11 0)
+    (property "Value" "LD74-X009T" (at 97.79 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DIP:DIP-8_W8.89mm_SMDSocket_LongPads" (at 92.71 129.54 0)
@@ -676,7 +677,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/64b407cd-5d00-473d-9ef6-2525490a4831"
-          (reference "U3") (unit 1) (value "LD74-X009T") (footprint "Package_DIP:DIP-8_W8.89mm_SMDSocket_LongPads")
+          (reference "U10") (unit 1) (value "LD74-X009T") (footprint "Package_DIP:DIP-8_W8.89mm_SMDSocket_LongPads")
         )
       )
     )
@@ -685,7 +686,7 @@
   (symbol (lib_id "power:GND") (at 85.09 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6fcb8a6-56a8-42a6-a1c3-3f976db90d1e)
-    (property "Reference" "#PWR015" (at 85.09 134.62 0)
+    (property "Reference" "#PWR021" (at 85.09 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 133.35 0)
@@ -701,7 +702,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/64b407cd-5d00-473d-9ef6-2525490a4831"
-          (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+          (reference "#PWR021") (unit 1) (value "GND") (footprint "")
         )
       )
     )
@@ -710,7 +711,7 @@
   (symbol (lib_id "Device:R") (at 120.65 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7771901-7953-4e3a-88cc-06513d2b2a77)
-    (property "Reference" "R24" (at 116.84 119.38 90)
+    (property "Reference" "R33" (at 116.84 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220 ohm" (at 124.46 119.38 90)
@@ -727,7 +728,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/64b407cd-5d00-473d-9ef6-2525490a4831"
-          (reference "R24") (unit 1) (value "220 ohm") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R33") (unit 1) (value "220 ohm") (footprint "Resistor_SMD:R_0603_1608Metric")
         )
       )
     )
@@ -736,7 +737,7 @@
   (symbol (lib_id "Transistor_FET:FQP27P06") (at 138.43 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e439a082-f0d0-4643-9728-4396d55a2108)
-    (property "Reference" "Q5" (at 144.78 120.6499 0)
+    (property "Reference" "Q6" (at 144.78 120.6499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FQP27P06" (at 144.78 123.1899 0)
@@ -754,7 +755,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/64b407cd-5d00-473d-9ef6-2525490a4831"
-          (reference "Q5") (unit 1) (value "FQP27P06") (footprint "Package_TO_SOT_SMD:TO-252-3_TabPin2")
+          (reference "Q6") (unit 1) (value "FQP27P06") (footprint "Package_TO_SOT_SMD:TO-252-3_TabPin2")
         )
       )
     )
@@ -763,7 +764,7 @@
   (symbol (lib_id "Device:R") (at 78.74 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd01c391-2985-443f-9b9a-4a312e59efb7)
-    (property "Reference" "R20" (at 78.74 115.57 90)
+    (property "Reference" "R32" (at 78.74 115.57 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "220 ohm" (at 78.74 118.11 90)
@@ -780,7 +781,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/64b407cd-5d00-473d-9ef6-2525490a4831"
-          (reference "R20") (unit 1) (value "220 ohm") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R32") (unit 1) (value "220 ohm") (footprint "Resistor_SMD:R_0603_1608Metric")
         )
       )
     )
