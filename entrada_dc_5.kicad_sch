@@ -691,7 +691,7 @@
   (symbol (lib_id "Isolator:ILD74") (at 92.71 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08b3b883-e737-4ece-af5b-172df2d6dd38)
-    (property "Reference" "U7" (at 92.71 140.97 0)
+    (property "Reference" "U10" (at 92.71 140.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LD74-X009T" (at 92.71 143.51 0)
@@ -714,7 +714,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/a6d2e040-0a94-4a2e-860d-bf58d3405101"
-          (reference "U7") (unit 1) (value "LD74-X009T") (footprint "Package_DIP:DIP-8_W8.89mm_SMDSocket_LongPads")
+          (reference "U10") (unit 1) (value "LD74-X009T") (footprint "Package_DIP:DIP-8_W8.89mm_SMDSocket_LongPads")
         )
       )
     )
@@ -748,7 +748,7 @@
   (symbol (lib_id "74xx:74HC14") (at 120.65 140.97 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57275ffe-6ce7-4fa5-8ca9-350209dd1ca7)
-    (property "Reference" "U4" (at 120.65 133.35 0)
+    (property "Reference" "U7" (at 120.65 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HC14" (at 120.65 135.89 0)
@@ -777,7 +777,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/a6d2e040-0a94-4a2e-860d-bf58d3405101"
-          (reference "U4") (unit 5) (value "74HC14") (footprint "Package_SO:SOIC-14W_7.5x9mm_P1.27mm")
+          (reference "U7") (unit 5) (value "74HC14") (footprint "Package_SO:SOIC-14W_7.5x9mm_P1.27mm")
         )
       )
     )
@@ -786,7 +786,7 @@
   (symbol (lib_id "Device:C") (at 110.49 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a2a52c4-5f10-48e2-a78f-1100415b8d8e)
-    (property "Reference" "C9" (at 114.3 147.3199 0)
+    (property "Reference" "C10" (at 114.3 147.3199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 114.3 149.8599 0)
@@ -803,7 +803,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/a6d2e040-0a94-4a2e-860d-bf58d3405101"
-          (reference "C9") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+          (reference "C10") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
         )
       )
     )
@@ -812,7 +812,7 @@
   (symbol (lib_id "Device:R") (at 77.47 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4ed6943-7f83-461a-853c-96417c37460d)
-    (property "Reference" "R9" (at 77.47 139.7 90)
+    (property "Reference" "R39" (at 77.47 139.7 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "20k" (at 77.47 142.24 90)
@@ -829,7 +829,7 @@
     (instances
       (project "PLC 32 V2"
         (path "/d17a54f1-6eda-453f-95e1-42a53b02a1c3/a6d2e040-0a94-4a2e-860d-bf58d3405101"
-          (reference "R9") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0603_1608Metric")
+          (reference "R39") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0603_1608Metric")
         )
       )
     )
